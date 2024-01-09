@@ -1,33 +1,36 @@
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
+const API_KEY = "554e3c56cfb28bccd863b1120534404e";
 
-
-
-const options = {
-    enableHighAccuracy: true,
-    timeout: 5000,
-    maximumAge: 0,
+let options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0,
 };
 
 function success(pos) {
-    const crd = pos.coords;
+  let crd = pos.coords;
+  let lat = crd.latitude
+  let lon = crd.longitude
 
-    console.log("Your current position is:");
-    console.log(`Latitude : ${crd.latitude}`);
-    console.log(`Longitude: ${crd.longitude}`);
-    console.log(`More or less ${crd.accuracy} meters.`);
+  const API_URL_MAIN = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric `;
+  fetch(API_URL_MAIN)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data)
+      document.getElementById("weather").innerHTML = `  
+        <div class="cityInfos">
+        <img class="icon" src='https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png'></img>
+        </h1>
+        <h1>${data.name}</h1>
+        <p>${Math.round(data.main.temp)}°</p>
+        </div>`;
+    });
+
 }
 
 function error(err) {
-    console.warn(`ERROR(${err.code}): ${err.message}`);
+  console.warn(`ERREUR (${err.code}): ${err.message}`);
 }
 
 navigator.geolocation.getCurrentPosition(success, error, options);
-
 
 
