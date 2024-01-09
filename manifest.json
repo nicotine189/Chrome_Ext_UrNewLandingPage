@@ -1,0 +1,14 @@
+{
+
+    "description": "Création d'une jolie page d'accueil avec plein de choses dessus ... ou pas :)",
+    "manifest_version": 3,
+    "name": "Notre super projet",
+    "version": "1.0",
+    "homepage_url": "https://github.com/adatechschool/extension-navigateur-chloe_aroun_nicolas_extensionnavigateur",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}
