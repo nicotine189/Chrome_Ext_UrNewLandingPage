@@ -36,10 +36,12 @@ Une page d'accueil personnalisée comprenant :
 ## Déroulé du projet
 
 Jour 1 : 
+
     * Parcours des ressources mises à disposition
     * Test sur tutos variés
     * Création du répo Github
 Jour 2 : 
+
     * choix du projet
     * Description détaillée des fonctionnalités cible
     * Définition du MVP
@@ -47,6 +49,7 @@ Jour 2 :
     * Répartition des tâches par fonctionnalités, et utilisations de branches spécifiques
     * Merge de 2 des 3 branches
 Jour 3 :
+
     * [Masterclass]
     * Correction bugs
     * Répartition de fonctionnalités complémentaires
