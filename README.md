@@ -9,7 +9,7 @@ Il s'agit du 3ème projet de notre cursus à ADA Tech School (Paris)
 
 ## Authors
 
-- [Chloé Pellerin](https://github.com/pchloe02)
+- [Chloé Pelerin](https://github.com/pchloe02)
 - [Aroun Gnanavelan](https://github.com/Aroun77)
 - [Nicolas Perrotin](https://github.com/nicotine189)
 
@@ -25,12 +25,29 @@ Outils : Git, Github, Miro, VSCode
 
     
 ## Fonctionnalités
-
-- Fond d'écran 
+Une page d'accueil personnalisée comprenant :
+- Fond d'écran
+- Affichage de la date et de l'heure
+- Affichage de la météo (geolocalisation via le navigateur)
+- Barre de recherche intégrée
+- ...
 
 
 ## Déroulé du projet
 
-Jour 1 :
-Jour 2 :
+Jour 1 : 
+    * Parcours des ressources mises à disposition
+    * Test sur tutos variés
+    * Création du répo Github
+Jour 2 : 
+    * choix du projet
+    * Description détaillée des fonctionnalités cible
+    * Définition du MVP
+    * Travail sur les premières fonctionnalités
+    * Répartition des tâches par fonctionnalités, et utilisations de branches spécifiques
+    * Merge de 2 des 3 branches
 Jour 3 :
+    * [Masterclass]
+    * Correction bugs
+    * Répartition de fonctionnalités complémentaires
+    * Début de documentation du projet
