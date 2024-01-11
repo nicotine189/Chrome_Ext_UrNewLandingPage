@@ -4,25 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Your favorite landing page</title>
+    <link rel="icon" type="image/png" href="img/icons8-zen-50.png" />
   </head>
   <body>
     <main>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      rel="stylesheet"
-    />
-    <div id="time"></div>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+        rel="stylesheet"
+      />
+      <!-- emplacement heure et date -->
+      <div id="time"></div>
+      <div id="date"></div>
     </main>
 
+    <!-- emplacement pour meteo -->
     <main>
-
-    <div id="weather"></div>
+      <div id="weather"></div>
     </main>
-    <img id="image" src="" alt="">
+
+
+    <!-- Container pour la ToDo List -->
+    <div id="container">
+      <input type="text" id="new-task" placeholder="Add a new task..." />
+      <button id="add-task">Add Task</button>
+      <ul id="task-list"></ul>
+    </div>
+
+    <!-- Fond d'écran -->
+    <img id="image" src="" alt="" />
+
+    <!-- Musique via un fichier mp3 -->
+    <embed
+      src="medias/morning-garden-acoustic-chill-15013.mp3"
+      loop="true"
+      autostart="true"
+      width="2"
+      height="0"
+      playsinline=""
+    />
+    Music by
+    <a
+      href="https://pixabay.com/fr/users/olexy-25300778/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
+      >Olexy</a
+    >
+    from
+    <a
+      href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
+      >Pixabay</a
+    >
+
+    <!-- Musique via un lien youtube (lien d'origine : https://www.youtube.com/watch?v=jchjEX0eLJA )  -->
+    <!-- <iframe width="1" height="1" wmode="transparent" src="//www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=jchjEX0eLJA" frameborder="0" allowfullscreen></iframe> -->
+
 
     <script src="scripts/weather.js"></script>
     <script src="scripts/time.js"></script>
     <script src="scripts/content.js"></script>
+    <script src="scripts/todolist.js"></script>
   </body>
 </html>

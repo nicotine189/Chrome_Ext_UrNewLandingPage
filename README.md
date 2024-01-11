@@ -54,3 +54,6 @@ Jour 3 :
     * Correction bugs
     * Répartition de fonctionnalités complémentaires
     * Début de documentation du projet
+
+
+
