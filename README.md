@@ -57,10 +57,6 @@ Jour 3 :
     * Répartition de fonctionnalités complémentaires
     * Début de documentation du projet
 
-<<<<<<< HEAD
-
-
-=======
 Jour 4 :
 
     * Suivi de l'avancement avec Miro, et nouvelle répartition de tâches :
@@ -72,10 +68,7 @@ Jour 4 :
     * Début d'annotation du code
     * Bonus de la journée : chargement d'une musique apaisante avec la page
 
-Jour 5 :
-To do :
-    * Merger les branches
-    * intégration des éléments
-    * débug
-    * Annotation du code + suite documentation
->>>>>>> 8655af970036410a963cd8b25607709ea5ef6d27
+Jour 5 : 
+
+    * Merge de 2 branches sur 3 : une petite difficulté, mais facilement résolue
+    * Reste de la journée = padding
