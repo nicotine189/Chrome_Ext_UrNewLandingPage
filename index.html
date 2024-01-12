@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Nouvel onglet</title>
   </head>
   <body>
-    <main>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      rel="stylesheet"
-    />
-    <div id="time"></div>
-    </main>
 
-    <main>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet"/>
+    
+    
 
-    <div id="weather"></div>
+    <main id="container-left">
+
+    <div id="container-hour-date">
+      <div id="time"></div>
+    </div>
+
+    <div id="container-weather">
+     <div id="weather"></div>   
+    </div>
+
+    <div id="container-quote-author">
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+
+    <img id="image" src="" alt="fond d'écran d'un paysage">
+
     </main>
-    <img id="image" src="" alt="">
 
     <script src="scripts/weather.js"></script>
     <script src="scripts/time.js"></script>
     <script src="scripts/content.js"></script>
+    <script src="scripts/quotes.js"></script>
   </body>
 </html>
