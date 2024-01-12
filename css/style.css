@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+img {
+  /* fond d'écran */
+  min-height: 100%;
+  min-width: 100%;
+
+  /* taille et proportion du fond d'écran */
+  width: 100%;
+  height: auto;
+
+  /* position du fond d'écran */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#time {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+=======
 #image {
     /* fond d'écran */
     min-height: 100%;
@@ -68,3 +93,4 @@
     font-style: italic;
   }
 
+>>>>>>> 8655af970036410a963cd8b25607709ea5ef6d27

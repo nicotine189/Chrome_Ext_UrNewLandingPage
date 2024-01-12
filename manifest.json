@@ -1,6 +1,6 @@
 {
 
-    "description": "Création d'une jolie page d'accueil avec plein de choses dessus ... ou pas :)",
+    "description": "Extension pour une page d'accueil utile et apaisante",
     "manifest_version": 3,
     "name": "Notre super projet",
     "version": "1.0",
@@ -11,9 +11,10 @@
             "js": ["scripts/content.js"]
         }
     ],
-    
+    "permissions": [
+        "storage"
+    ],
     "chrome_url_overrides" : {
         "newtab" : "index.html"
     }
-
 }

@@ -1,10 +1,10 @@
 function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
+  let today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
   m = checkTime(m);
   document.getElementById("time").innerHTML = h + ":" + m;
-  var t = setTimeout(startTime, 500);
+  let t = setTimeout(startTime, 500);
 }
 
 function checkTime(i) {
@@ -15,3 +15,12 @@ function checkTime(i) {
 }
 
 startTime();
+
+
+// For todays date;
+let currentdate = new Date(); 
+let datetime = currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear()
+
+document.getElementById("date").innerHTML = datetime;

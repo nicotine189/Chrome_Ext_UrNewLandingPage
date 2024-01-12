@@ -57,6 +57,10 @@ Jour 3 :
     * Répartition de fonctionnalités complémentaires
     * Début de documentation du projet
 
+<<<<<<< HEAD
+
+
+=======
 Jour 4 :
 
     * Suivi de l'avancement avec Miro, et nouvelle répartition de tâches :
@@ -74,3 +78,4 @@ To do :
     * intégration des éléments
     * débug
     * Annotation du code + suite documentation
+>>>>>>> 8655af970036410a963cd8b25607709ea5ef6d27
