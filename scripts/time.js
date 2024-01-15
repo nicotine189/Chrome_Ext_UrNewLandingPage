@@ -16,11 +16,20 @@ function checkTime(i) {
 
 startTime();
 
-
 // For todays date;
-let currentdate = new Date(); 
-let datetime = currentdate.getDate() + "/"
-                + (currentdate.getMonth()+1)  + "/" 
-                + currentdate.getFullYear()
+let currentdate = new Date();
+let currentMonth = 0;
+if (currentdate.getMonth() + 1 < 10) {
+  currentMonth = "0" + (currentdate.getMonth() + 1);
+} else {
+  currentMonth = currentdate.getMonth() + 1;
+}
+
+let datetime =
+  currentdate.getDate() +
+  "/" +
+  currentMonth +
+  "/" +
+  currentdate.getFullYear();
 
 document.getElementById("date").innerHTML = datetime;
