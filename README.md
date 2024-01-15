@@ -29,9 +29,9 @@ Une page d'accueil personnalisée comprenant :
 - Fond d'écran
 - Affichage de la date et de l'heure
 - Affichage de la météo (geolocalisation via le navigateur)
-- Barre de recherche intégrée
-- ...
-
+- Barre de recherche intégrée (avec plusieurs moteurs de recherche)
+- Pensée du jour
+- To do liste
 
 ## Déroulé du projet
 
@@ -72,3 +72,8 @@ Jour 5 :
 
     * Merge de 2 branches sur 3 : une petite difficulté, mais facilement résolue
     * Reste de la journée = padding
+
+Jour 6 : 
+
+    * Merge de la 3ème branche : l'utilisation de fichiers séparés pour les différents éléments a permis de la faciliter
+    * Reprise du travail en branches séparées pour corriger / compléter certaines fonctionnalités
