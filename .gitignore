@@ -21,3 +21,4 @@ dist/
 # Divers
 api.js
 ####
+.vscode/
