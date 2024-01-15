@@ -15,7 +15,7 @@
     
     
 
-    <main id="container-left">
+  <main id="container-left">
 
     <div id="container-hour-date">
       <div id="time"></div>
@@ -31,12 +31,8 @@
       <p id="author"></p>
     </div>
 
-        <!-- Container pour la ToDo List -->
-        <div id="container">
-          <input type="text" id="new-task" placeholder="Add a new task..." />
-          <button id="add-task">Add Task</button>
-          <ul id="task-list"></ul>
-        </div>
+
+
     
         <!-- Fond d'écran -->
         <img id="image" src="" alt="fond d'écran d'un paysage">
@@ -63,32 +59,40 @@
   
       <!-- Musique via un lien youtube (lien d'origine : https://www.youtube.com/watch?v=jchjEX0eLJA )  -->
       <!-- <iframe width="1" height="1" wmode="transparent" src="//www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=jchjEX0eLJA" frameborder="0" allowfullscreen></iframe> -->
-      <div>
+    </main>
+    <main id="container-center">
+      <div id="search">
         <input type ='text' id="searchBox"
         placeholder="Search...">
         <button id= "googleSearch">Google </button>
         <button id= "wikipediaSearch">wikipedia </button>
         <button id= "BingSearch">Bing </button>
         <button id= "googleNews">google news </button>
-        
-    <!--- réseaux socials icones-->
+      </div>
+     <!--- réseaux socials icones-->
         <div class ="social-share">
             <a href="/" class="social-icon">
-                <img src="icon/instagram.png">
+                <img src="img/instagram.png">
             </a>
             <a href="/" class="social-icon">
-                <img src="icon/twitter.png">
+                <img src="img/twitter.png">
             </a>
             <a href="/" class="social-icon">
-                <img src="icon/youtube.png">
+                <img src="img/youtube.png">
             </a>
-    
-    
-        </div>
-     </div>
+          </div>
+    </main>
+    <main id="container-right">
+              <!-- Container pour la ToDo List -->
+              <div id="container">
+                <input type="text" id="new-task" placeholder="Add a new task..." />
+                <button id="add-task">Add Task</button>
+                <ul id="task-list"></ul>
+              </div>
+    </main>
 
      
-    </main>
+
     
     <script src="barre.js"></script>
     <script src="scripts/weather.js"></script>
