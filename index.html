@@ -61,14 +61,16 @@
       <!-- <iframe width="1" height="1" wmode="transparent" src="//www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=jchjEX0eLJA" frameborder="0" allowfullscreen></iframe> -->
     </main>
     <main id="container-center">
-      <div id="search">
-        <input type ='text' id="searchBox"
-        placeholder="Search...">
-        <button id= "googleSearch">Google </button>
-        <button id= "wikipediaSearch">wikipedia </button>
-        <button id= "BingSearch">Bing </button>
-        <button id= "googleNews">google news </button>
-      </div>
+      <div class="zone-hover">
+        <input type="text" class ="searchBox" id="searchBox" placeholder="Search...">
+    </div>
+        <select id="searchEngine">
+            <option value="google">Google</option>
+            <option value="wikipedia">Wikipedia</option>
+            <option value="bing">Bing</option>
+            <option value="google-news">Google News</option>
+        </select>
+        <button  class="btn" id="searchButton">Search</button>
      <!--- réseaux socials icones-->
         <div class ="social-share">
             <a href="/" class="social-icon">
