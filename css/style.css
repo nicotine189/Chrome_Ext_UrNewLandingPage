@@ -134,15 +134,15 @@ button {
 
 /*reseaux */
 
-/* .social-share{
+ /* .social-share{
     display: flex;
     align-items : center;
     flex-direction: row;
-    /*gap: 5px;*/
-    /*margin-right: 50px;
+    gap: 5px;
+    margin-right: 50px;
     
 
-}
+} */
 
 .social-icon{
     display: block;
@@ -157,16 +157,14 @@ button {
   height: 100%;
 }
 
-/* **** CSS pour la to do liste **** */
+ /**** CSS pour la to do liste **** */
 
 #container-right {
   position: grid;
-  font-family: "Josefin Sans", sans-serif;
-  margin: 0 0 0 0;
+  margin-top: 11px;
 }
 
 #todo_block {
-  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -241,31 +239,6 @@ button:not(#add-task) {
 button:hover {
   opacity: 0.8;
 }
-
-/**** Apparation / disparition de la todo liste ****/
-
-/* .clicker {
-  padding: 10px;
-  width: 100%;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 10px;
-  font-size: 13px;
-  transition: opacity 0.3s ease;
-}
-
-.hiddendiv {
-  display: none;
-  height: 200px;
-  background-color: green;
-}
-
-.clicker:focus + .hiddendiv {
-  display: block;
-} */
 
 #toggle {
   display: none;
