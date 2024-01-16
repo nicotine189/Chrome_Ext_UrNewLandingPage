@@ -4,97 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-<title>Your favorite landing page</title>
-<link rel="icon" type="image/png" href="img/icons8-zen-50.png" />
+    <title>Your favorite landing page</title>
+    <link rel="icon" type="image/png" href="img/icons8-zen-50.png" />
   </head>
   <body>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet"/>
-    
-    
+    <main>
+      <section id="main-content">
+        <div id="container-left">
+          <div id="container-hour-date">
+            <div id="time"></div>
+            <div id="date"></div>
+          </div>
 
-  <main id="container-left">
+          <div id="container-weather">
+            <div id="weather"></div>
+          </div>
 
-    <div id="container-hour-date">
-      <div id="time"></div>
-      <div id="date"></div>
-    </div>
+          <!-- Fond d'écran -->
+          <img id="image" src="" alt="fond d'écran d'un paysage" />
 
-    <div id="container-weather">
-     <div id="weather"></div>   
-    </div>
+          <!-- Musique via un fichier mp3 -->
+          <embed
+            src="medias/morning-garden-acoustic-chill-15013.mp3"
+            loop="true"
+            autostart="true"
+            width="2"
+            height="0"
+            playsinline=""
+          />
+          Music by
+          <a
+            href="https://pixabay.com/fr/users/olexy-25300778/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
+            >Olexy</a
+          >
+          from
+          <a
+            href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
+            >Pixabay</a
+          >
 
-    <div id="container-quote-author">
-      <p id="quote"></p>
-      <p id="author"></p>
-    </div>
-
-
-
-    
-        <!-- Fond d'écran -->
-        <img id="image" src="" alt="fond d'écran d'un paysage">
-
-        <!-- Musique via un fichier mp3 -->
-        <embed
-        src="medias/morning-garden-acoustic-chill-15013.mp3"
-        loop="true"
-        autostart="true"
-        width="2"
-        height="0"
-        playsinline=""
-      />
-      Music by
-      <a
-        href="https://pixabay.com/fr/users/olexy-25300778/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
-        >Olexy</a
-      >
-      from
-      <a
-        href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15013"
-        >Pixabay</a
-      >
-  
-      <!-- Musique via un lien youtube (lien d'origine : https://www.youtube.com/watch?v=jchjEX0eLJA )  -->
-      <!-- <iframe width="1" height="1" wmode="transparent" src="//www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=jchjEX0eLJA" frameborder="0" allowfullscreen></iframe> -->
-    </main>
-    <main id="container-center">
-      <div id="search">
-        <input type ='text' id="searchBox"
-        placeholder="Search...">
-        <button id= "googleSearch">Google </button>
-        <button id= "wikipediaSearch">wikipedia </button>
-        <button id= "BingSearch">Bing </button>
-        <button id= "googleNews">google news </button>
-      </div>
-     <!--- réseaux socials icones-->
-        <div class ="social-share">
+          <!-- Musique via un lien youtube (lien d'origine : https://www.youtube.com/watch?v=jchjEX0eLJA )  -->
+          <!-- <iframe width="1" height="1" wmode="transparent" src="//www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=jchjEX0eLJA" frameborder="0" allowfullscreen></iframe> -->
+        </div>
+        <div id="container-center">
+          <div id="search">
+            <input type="text" id="searchBox" placeholder="Search..." />
+            <button id="googleSearch">Google</button>
+            <button id="wikipediaSearch">wikipedia</button>
+            <button id="BingSearch">Bing</button>
+            <button id="googleNews">google news</button>
+          </div>
+          <!--- réseaux socials icones-->
+          <div class="social-share">
             <a href="/" class="social-icon">
-                <img src="img/instagram.png">
+              <img src="img/instagram.png" />
             </a>
             <a href="/" class="social-icon">
-                <img src="img/twitter.png">
+              <img src="img/twitter.png" />
             </a>
             <a href="/" class="social-icon">
-                <img src="img/youtube.png">
+              <img src="img/youtube.png" />
             </a>
           </div>
-    </main>
-    <main id="container-right">
-              <!-- Container pour la ToDo List -->
-              <div id="container">
-                <input type="text" id="new-task" placeholder="Add a new task..." />
-                <button id="add-task">Add Task</button>
-                <ul id="task-list"></ul>
-              </div>
+        </div>
+        <div id="container-right">
+          <!-- Container pour la ToDo List -->
+          <div id="container">
+            <input type="text" id="new-task" placeholder="Add a new task..." />
+            <button id="add-task">Add Task</button>
+            <ul id="task-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="container-bottom">
+        <div id="container-footer">
+          <div id="container-quote-author">
+            <p id="quote"></p>
+            <p id="author"></p>
+          </div>
+        </div>
+      </section>
     </main>
 
-     
-
-    
-    <script src="barre.js"></script>
+    <script src="scripts/barre.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/time.js"></script>
     <script src="scripts/content.js"></script>
