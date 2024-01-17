@@ -112,11 +112,6 @@ body {
 
 /* **** CSS pour la barre de recherche **** */
 
-#search {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
 input,
 button {
   margin-bottom: 2px;
@@ -125,24 +120,19 @@ button {
   outline: none;
   border-radius: 6px;
 }
-button {
+/* button {
   background-color: #000000;
   color: #32c415;
   cursor: pointer;
   font-size: 15px;
-}
+} */
 
 /*reseaux */
 
- /* .social-share{
+ .social-share{
     display: flex;
-    align-items : center;
     flex-direction: row;
-    gap: 5px;
-    margin-right: 50px;
-    
-
-} */
+}
 
 .social-icon{
     display: block;
@@ -167,13 +157,13 @@ button {
 #todo_block {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
   border-radius: 8px;
   width: 350px;
 }
 
 #todo_container {
-  background-color: #fff;
+  background-color: #ffffff11;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -279,14 +269,17 @@ label {
   padding: 10px;
   box-sizing: border-box;
   transition: width 0.3s;
+  border-radius: 30px;
 }
 
 .zone-hover:hover .searchBox {
   width: 250px;
+ 
 }
  
 .btn{
-  padding: 10px;
+  display: block; 
+  padding: 20px;
   background: rgba(red, green, blue, alpha);
   color: whitesmoke;
   border-radius: 40px;
@@ -295,7 +288,8 @@ label {
   border:none;
   font-size: 1rem;
   cursor: pointer;
-  
+  width: 150px;
+  background-color: #000000;
 }
 
 .btn:hover{
@@ -312,4 +306,12 @@ label {
   to{
     background-position: 500%;
   }
+}
+
+#searchEngine{
+  width: 150px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+  background: rgba(180, 180, 180, 0.20);
 }
