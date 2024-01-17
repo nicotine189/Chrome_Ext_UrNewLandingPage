@@ -82,3 +82,9 @@ Jour 7 :
 
     * Merge de 2 branches (organisation de la mise en forme sur html et CSS + amélioration de la to do liste)
     * Tentative de merge de la 3ème branche, mais gros bug, au final causé par le fait qu'une API ne fonctionne pas de la même façon si elle est lancée depuis une extension que depuis une page web
+
+Jour 8 : 
+
+    * [Masterclass]
+    * Correction/améliorations de bugs d'affichages
+    * Merge de la 3ème branche restante
