@@ -1,8 +1,7 @@
 
-# Chrome Extension : A momentum like
+# Chrome Extension : Your new favorite landing page !
 
-Projet de création d'une extension du navigateur Chrome.
-Il s'agit du 3ème projet de notre cursus à ADA Tech School (Paris)
+The project is about creating a browser extension for Google Chrome. It is the third project of our curriculum at ADA Tech School in Paris.
 
 ## Authors
 
@@ -10,81 +9,36 @@ Il s'agit du 3ème projet de notre cursus à ADA Tech School (Paris)
 - [Aroun Gnanavelan](https://github.com/Aroun77)
 - [Nicolas Perrotin](https://github.com/nicotine189)
 
-## Objectifs du projet
+## Project goals
 
-Manipulation et interactions avec le DOM depuis JS
+Manipulating and interacting with the DOM using JavaScript
 
-## Langages et outils utilisés
+## Languages and tools used
 
-Langages : HTML, CSS, JS
-Outils : Git, Github, Miro, VSCode
+**Languages:**
+- JavaScript
+- HTML
+- CSS
+**Tools:**
+- Git
+- Miro
+- Visual Studio Code
 
-## Sources / outils externes :
-- mp3 : Music by Olexy from Pixabay
-- phind.com
-- Source pour la todo liste : tuto Youtube by ASMR Programmation
-
-## Fonctionnalités
+## Features
 Une page d'accueil personnalisée comprenant :
-- Fond d'écran
-- Affichage de la date et de l'heure
-- Affichage de la météo (geolocalisation via le navigateur)
-- Barre de recherche intégrée (avec plusieurs moteurs de recherche)
-- Pensée du jour
-- To do liste
+- Background image
+- Date and time display
+- Weather information (geo-location through the browser)
+- Integrated search bar (with multiple search engine options)
+- Daily inspiration quote
+- To do list
 
-## Déroulé du projet
+## External resources and tools
+- MP3 music from Pixabay
+- phind.com
+- Todo list source: YouTube tutorial by ASMR Programming
+## Deployment
 
-Jour 1 : 
-
-    * Parcours des ressources mises à disposition
-    * Test sur tutos variés
-    * Création du répo Github
-    
-Jour 2 : 
-
-    * choix du projet
-    * Description détaillée des fonctionnalités cible
-    * Définition du MVP
-    * Travail sur les premières fonctionnalités
-    * Répartition des tâches par fonctionnalités, et utilisations de branches spécifiques
-    * Merge de 2 des 3 branches
-
-Jour 3 :
-
-    * [Masterclass]
-    * Correction bugs
-    * Répartition de fonctionnalités complémentaires
-    * Début de documentation du projet
-
-Jour 4 :
-
-    * Suivi de l'avancement avec Miro, et nouvelle répartition de tâches :
-        - Chloé : Avancement sur l'organisation de la page / CSS, ajout de la phrase inspirante
-        - Aroun : Fil d'actualités + affichage du bookmark
-        - Nicolas : Ajout de la todo list (+ affichage de la date)
-    * Chacun a toujours une branche spécifique
-    * Suite de la documentation du projet
-    * Début d'annotation du code
-    * Bonus de la journée : chargement d'une musique apaisante avec la page
-
-Jour 5 : 
-
-    * Merge de 2 branches sur 3 : une petite difficulté, mais facilement résolue
-    * Reste de la journée = padding
-
-Jour 6 : 
-
-    * Merge de la 3ème branche : l'utilisation de fichiers séparés pour les différents éléments a permis de la faciliter
-    * Reprise du travail en branches séparées pour corriger / compléter certaines fonctionnalités
-
-Jour 7 : 
-
-    * Merge de 2 branches (organisation de la mise en forme sur html et CSS + amélioration de la to do liste)
-    * Tentative de merge de la 3ème branche, mais gros bug, au final causé par le fait qu'une API ne fonctionne pas de la même façon si elle est lancée depuis une extension que depuis une page web
-
-Jour 8 : 
-
-    * [Masterclass]
-    * Correction/améliorations de bugs d'affichages
-    * Merge de la 3ème branche restante
+To use this extension, you will have to install it on your chrome browser : when you are in the extensions menu, activate the developper mode, and then you'll will be able to load the local files form the repo.
+It won't work if you load it as a regular webpage.
+You will also need to put in your own API keys (and replace the "*** You API Key ..."). The API source is specified. 3 keys are required (content.js, quote.js and weather.js)
