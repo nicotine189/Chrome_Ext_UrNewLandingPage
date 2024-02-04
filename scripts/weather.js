@@ -1,4 +1,4 @@
-const API_KEY = "554e3c56cfb28bccd863b1120534404e";
+const API_KEY = "*** Your API KEY (openweathermap API) ***";
 
 let options = {
   enableHighAccuracy: true,

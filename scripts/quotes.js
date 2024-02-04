@@ -11,7 +11,7 @@ async function fetchData() {
           "x-rapidapi-host":
             "quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com",
           "x-rapidapi-key":
-            "206f104fffmshc6de8a557ccfe51p19404fjsn8b94a624014c",
+            "*** Your API Key (Rapid API) ***",
         },
       }
     );

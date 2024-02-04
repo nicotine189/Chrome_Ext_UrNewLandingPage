@@ -1,4 +1,4 @@
-const apiKey = "x1qlmb8ZLLOvEwCU60HL2oT-MhvjWvFM2bNUpHa8Y6s";
+const apiKey = "*** Your API key (Unsplash) ***";
 const images = document.getElementById("image");
 
 let imageUrls = localStorage.getItem("imageUrls");
